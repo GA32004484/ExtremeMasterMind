@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MasterMind Unlimited Edition</string>
+    <string name="new1">Nouvelle Partie</string>
+    <string name="save1">Sauvegardes</string>
+    <string name="hs1">HighScores</string>
+    <string name="quit">Quitter</string>
+    <string name="version">Version v1.0</string>
+    <string name="help">\?</string>
+
+    <string name="aide">Aide</string>
+    <string name="goal">Le but est de trouver la combinaison derrière le cache !</string>
+    <string name="couleurs">Les couleurs possibles sont :</string>
+    <string name="help_int">Pour aider, 4 cercles indiquant:</string>
+    <string name="colbp">Une bonne couleur placée au bon endroit</string>
+    <string name="colmp">Une bonne couleur placée au mauvais endroit</string>
+
+    <string name="supp">Suppression de la ligne</string>
+    <string name="really">Etes-vous sur de vouloir supprimer \?</string>
+    <string name="oui">Oui</string>
+    <string name="non">Non</string>
+    <string name="annuler">Annuler</string>
+
+</resources>

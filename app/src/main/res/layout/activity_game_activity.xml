@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.agast.extrememastermind_v1.game_activity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/interfacewidget">
+
+        <Button
+            android:id="@+id/help"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_blue"
+            android:text="@string/help"
+            android:onClick="ltp"
+            android:backgroundTint="@color/colorPrimary"/>
+
+        <Button
+            android:id="@+id/quit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:text="@string/quit"
+            android:onClick="quit_menu"/>
+
+        <TextView
+            android:id="@+id/hs2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:text="@string/hs1" />
+
+        <ImageView
+            android:id="@+id/ball1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="0"
+            app:srcCompat="@drawable/circle_blue" />
+
+        <ImageView
+            android:id="@+id/ball2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_row="0"
+            app:srcCompat="@drawable/circle_blue" />
+
+        <ImageView
+            android:id="@+id/ball3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_row="0"
+            app:srcCompat="@drawable/circle_blue" />
+
+        <ImageView
+            android:id="@+id/ball4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_row="0"
+            app:srcCompat="@drawable/circle_blue" />
+    </GridLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/rep1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/circle_blue"/>
+
+            <ImageView
+                android:id="@+id/rep2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/circle_blue" />
+
+            <ImageView
+                android:id="@+id/rep3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/circle_blue" />
+
+            <ImageView
+                android:id="@+id/rep4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                app:srcCompat="@drawable/circle_blue" />
+
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Ok"
+                android:onClick="new_row"/>
+        </LinearLayout>
+
+    <ListView
+        android:id="@+id/all_combi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
