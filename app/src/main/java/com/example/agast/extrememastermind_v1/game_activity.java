@@ -36,7 +36,6 @@ public class game_activity extends AppCompatActivity implements View.OnClickList
     int nbrow = 0; //nombre de lignes
     int nbmalplace, nbbienplace; //Nombre de bien placés, mal placé
     int score = 12; //Score de départ
-
     String nom; //Nom du joueur
 
     //Image view des cercles contenant la solution
